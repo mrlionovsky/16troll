@@ -1,0 +1,57 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+a {
+color: black;
+}
+
+img {
+border: none
+}
+
+hr
+{
+color: black;
+width: 100%;
+}
+
+
+.main{ 
+/* background-image: url('http://lionovsky.us/img/fon.gif') ; /*  Эй, жопа, работай как надо! */
+border: 5px;
+border-color: black;
+border-style: dashed;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px; 
+}
+
+.main td{
+border: 1px;
+border-color: black;
+border-style: ridge;
+padding: 10px; /* Поля вокруг текста */
+}
+
+.head {
+color: white; 
+background-color: black;
+padding: 5px;
+}
+.head a {
+color: white; 
+} 
+
+.news {
+padding: 5px;
+color: black;
+border: 1px solid black;
+} 
+
+.copy {
+margin-top: 20px;
+font-family: monospace;
+}
+
